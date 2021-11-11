@@ -2,13 +2,18 @@
 <html>
 
   <style>
-    b {background-color:LightGreen;}  /*bold = background color yellow*/
+     /*bold = background color yellow*/
+    b {background-color:LightGreen;}
 
     /*header1 = color = dark blue, background = light blue*/
     h1 {color: DarkBlue; background-color: LightBlue}
 
-    ol li {color: green}
     li {color: DarkGreen}
+    ol li {color: green}
+    #second {color:blue}
+
+    /*highlighted class*/
+    .highlighted {background-color: yellow}
     </style>
 
 <h1> This is in the subdirectory demo2 file </h1>
@@ -32,8 +37,8 @@
 Unordered list items
 <ul>
   <li>Chapter One</li>
-  <li>Chapter Two</li>
-  <li>Chapter Three</li>
+  <li id="second">Chapter Two</li>
+  <li class = "highlighted">Chapter Three</li>
   <li>Chapter Four</li>
   <li>Chapter Five</li>
 </ul>
@@ -42,14 +47,14 @@ Ordered list items
 <ol>
   <li>Chapter 1</li>
   <li>Chapter 2</li>
-  <li>Chapter 3</li>
+  <li class = "highlighted">Chapter 3</li>
   <li>Chapter 4</li>
   <li>Chapter 5</li>
 </ol>
 
   <img src="https://i.pinimg.com/originals/14/7a/05/147a051cc995270215657b1e50fdbf1a.jpg">
 
-<p>
+<p class = "highlighted">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
 
@@ -57,9 +62,7 @@ Ordered list items
 Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
 
 <br>
-“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
-
-The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.
+“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.” The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.
 </p>
 
 <form>
